@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>JavaScript MarkSheet</title>
+  </head>
+  <body>
+    <div class="container">
+
+    </div>
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var marks = prompt("Input Your Number");
+
+
+        if (marks >= 91 && marks <= 100 ) {
+            document.write("you got golden gpa-5");
+        } else if (marks >= 81 && marks <= 90 ) {
+            document.write("you got gpa-5");
+        }else if (marks >= 71 && marks <= 80 ) {
+            document.write("you got A");
+        }else if (marks >= 61 && marks <= 70 ) {
+            document.write("you got A-");
+        }else if (marks >= 51 && marks <= 60 ) {
+            document.write("you got B");
+        }
+        else if (marks >= 41 && marks <= 50 ) {
+            document.write("you got B-");
+        }else if (marks >= 33 && marks <= 40 ) {
+            document.write("you got C");
+        } else if (marks <= 33  ) {
+            document.write("you failed.");
+        } else {
+            document.write("please enter valid mark.")
+        }
+    </script>
+    
+  </body>
+</html>
